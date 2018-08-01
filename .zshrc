@@ -1,5 +1,6 @@
 export LANG=en_US.UTF-8
 export LC_ALL=$LANG
+export TERM=xterm-256color
 
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
